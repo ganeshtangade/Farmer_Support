@@ -13,3 +13,8 @@ body {
     z-index: 1000;
     background-color: white;
 }
+.product-card {
+    background-color: lightgreen !important;
+    border: 3px solid red !important;
+    border-radius: 20px !important;
+}
