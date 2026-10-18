@@ -14,7 +14,37 @@ body {
     background-color: white;
 }
 .product-card {
-    background-color: lightgreen !important;
-    border: 3px solid red !important;
-    border-radius: 20px !important;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+}
+
+/* Image styling */
+.product-card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Card text styling */
+.product-card .card-text {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.d1{
+    display: flex;
+}
+.expert_heading{
+    margin: auto;
+    padding: 20px;
+    align-content: center;
 }
