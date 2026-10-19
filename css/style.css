@@ -91,3 +91,17 @@ body {
         max-width: 350px;
     }
 }
+.hov:hover{
+     transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.hov {
+    width: 100%;
+    max-width: 280px;
+    flex: 1 1 250px;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
