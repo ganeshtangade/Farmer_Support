@@ -105,3 +105,15 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
     transition: transform 0.3s ease;
 }
+
+@media (max-width: 576px) {
+    .cat {
+        padding: 12px;
+        gap: 15px;
+    }
+
+    .hov {
+        flex: 1 1 100%;
+        max-width: 350px;
+    }
+}
