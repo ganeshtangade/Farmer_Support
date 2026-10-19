@@ -97,7 +97,7 @@ body {
 }
 .hov {
     width: 100%;
-    max-width: 280px;
+    max-width: 400px;
     flex: 1 1 250px;
     border: none;
     border-radius: 12px;
