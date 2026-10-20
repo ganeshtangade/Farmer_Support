@@ -126,3 +126,25 @@ body {
     padding: 20px;
 }
     */
+
+
+.image_main:hover{
+     transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+}
+.image_main {
+    width: 100%;
+    max-width: 400px;
+    flex: 1 1 250px;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+.main_card:hover{
+     transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
