@@ -117,7 +117,7 @@ body {
         max-width: 350px;
     }
 }
-/*.cat {
+.cat {
 
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +125,7 @@ body {
     gap: 20px;
     padding: 20px;
 }
-    */
+    
 
 
 .image_main:hover{
